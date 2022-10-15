@@ -3,7 +3,6 @@
 namespace GameServer.API.Controllers;
 
 [ApiController]
-[Route("/api")]
 public class ApiController: ControllerBase
 {
     private readonly ILogger<ApiController> _logger;
