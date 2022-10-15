@@ -10,5 +10,6 @@ public class ApiController: ControllerBase
 
     public ApiController(ILogger<LeaderboardController> logger)
     {
+        _logger = logger;
     }
 }

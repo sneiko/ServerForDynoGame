@@ -1,6 +1,8 @@
-﻿namespace GameServer.Models.MongoDB.Entities;
+﻿using GameServer.Models.Entities;
 
-public class BaseEntity
+namespace GameServer.Models.MongoDB.Entities;
+
+public class BaseEntity: IBaseEntity
 {
     public string Id { get; set; }
 }

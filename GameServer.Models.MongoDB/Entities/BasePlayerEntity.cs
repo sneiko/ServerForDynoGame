@@ -1,4 +1,4 @@
-﻿using GameServer.Models.MongoDB.Entities.Enum;
+﻿using GameServer.Models.Entities.Enum;
 
 namespace GameServer.Models.MongoDB.Entities;
 

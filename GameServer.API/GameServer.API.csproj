@@ -10,4 +10,13 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Configuration\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GameServer.Models.MongoDB\GameServer.Models.MongoDB.csproj" />
+    <ProjectReference Include="..\GameServer.Models\GameServer.Models.csproj" />
+  </ItemGroup>
+
 </Project>
